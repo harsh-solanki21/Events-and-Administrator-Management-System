@@ -1,0 +1,88 @@
+.title
+{
+	font-style: Times New Roman;
+	font-size: 25px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(128,128,128,0.5);
+	color: white;
+	padding-left: 460px;
+	padding-right: 470px;
+}
+
+.mybtn
+{
+	background-color: maroon;
+	border: none;
+	margin-top: 70px;
+	border-radius: 20px;
+	font-weight: bolder;
+	padding: 10px 15px;
+	color: white;
+	position: relative;
+	cursor: pointer;
+}
+
+.profilepic
+{
+	margin-left: 570px;
+	border-radius: 50%;
+	margin-top: 20px;
+	width: 200px;
+	height: 180px;
+}
+
+.mytabs
+{
+	background-color: maroon;
+	border-width: 5px;
+	color: white;
+	border-style:inset;
+	position: relative;
+	cursor: pointer;
+	padding: 15px 200px;
+	font-size: 20px;
+}
+.mytabs:hover
+{
+	border-style: outset;
+}
+
+table
+{
+	width: 100%;
+	margin-top: 20px;
+}
+td
+{
+	width: 50%;
+	border: 0px solid #ddd;
+}
+
+tr:nth-child(even)
+{
+	background-color: lightgray;
+}
+tr:hover
+{
+	background-color: firebrick;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

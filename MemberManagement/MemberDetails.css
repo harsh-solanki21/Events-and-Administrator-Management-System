@@ -1,0 +1,164 @@
+.title
+{
+	font-style: Times New Roman;
+	font-size: 25px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(128,128,128,0.5);
+	color: white;
+	padding-left: 460px;
+	padding-right: 470px;
+}
+
+/* For Background */
+.mybg
+{
+	background-image: url(church_pic1.jpg);
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Search Box*/
+.searchbox
+{
+	width: 350px;
+	height: 45px;
+	border-radius: 10px;
+	margin-left: 350px;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+.searchbutton
+{
+	border: none;
+  	color: white;
+  	padding: 10px;
+  	background: crimson;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+
+.addfambutton
+{
+	border: none;
+  	color: white;
+  	padding: 10px;
+  	background: crimson;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+
+.delfambutton
+{
+	border: none;
+  	color: white;
+  	padding: 10px;
+  	background: crimson;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+
+.addmemberbutton
+{
+	border: none;
+  	color: white;
+  	padding: 15px;
+  	background-image: linear-gradient(to right, #D31027 0%, #F1586A 51%, #D31027 100%);
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 15px;
+  	margin: 4px 2px;
+  	margin-left: 580px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+.addmemberbutton:hover { background-position: right center; }
+
+table
+{
+	width: 100%;
+	margin-top: 20px;
+}
+tr,td
+{
+	padding: 20px;
+}
+
+.viewbutton
+{
+	background: dimgray;
+	color: white;
+	border: none;
+	margin: 4px 2px;
+	border-radius: 12px;
+}
+
+.collapsible
+{
+	background-color: lightgray;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover
+{
+	background-color: crimson;
+	color: white;
+}
+
+.collapsible:after
+{
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+
+.active:after
+{
+	content: "\2212";
+}
+
+.content
+{
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
+
+.para
+{
+	font-size: 30px;
+}			

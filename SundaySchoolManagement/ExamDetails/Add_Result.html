@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ADD RESULT</title>
+        <style>
+            input[type="text"],textarea
+            {
+                width: 100%
+            }
+            .buttonHolder
+            { 
+                text-align: center;
+            }
+            table
+            {
+                margin-left: 35%;
+                margin-top: 5%;
+                border: solid lightgray;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            td,th
+            {
+                border: 0px solid #ddd;
+            }
+           
+            
+            tr:hover
+            {
+                background-color: slategray;
+                color: white;
+            }
+        </style>
+        <script src='Exam.js'></script>
+    </head>
+    <body>
+        <div>
+            <form method="POST" action="Add_Result.php" autocomplete="off">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Student Name : </td>
+                        <td> <input type="text" name="s_name" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td>Marks / 100 : </td>
+                        <td> <input type="text" name="marks" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td>Attendance / 52 Sundays : </td>
+                        <td> <input type="text" name="att" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="buttonHolder">
+                            <input type="reset" value="Reset"/>
+                            <input type="submit" value="Enter"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+/* Title Bar */
+.title
+{
+	font-style: Times New Roman;
+	font-size: 25px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(128,128,128,0.5);
+	color: white;
+	padding-left: 550px;
+	
+}
+
+ /* For Background */
+
+.mybg
+{
+	background-image: url(church_pic1.jpg);
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Search Box*/
+
+.searchbox
+{
+	width: 350px;
+	height: 45px;
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-top: 200px;
+        margin-bottom:15px;
+	padding: 10px;
+}
+.addbutton
+{
+ 
+	border: none;
+  	color: white;
+  	padding: 15px;
+  	background: crimson; 
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin-left: 560px;
+  	cursor: pointer;
+  	border-radius: 12px;
+}
+
+table
+{
+	margin: 50px;
+	margin-left: 120px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+td,th
+{
+	border: 0px solid #ddd;
+}
+
+tr:nth-child(even)
+{
+	background-color: lightgray;
+}
+tr:hover
+{
+	background-color: slategray;
+	color: white;
+}
+
+th
+{
+	text-align: left;
+	background-color:black;
+	color: white;
+}
+
+.viewbutton
+{
+	background: dimgray;
+	color: white;
+	border: none;
+	margin: 4px 2px;
+	border-radius: 12px;
+}
+
+.collapsible
+{
+	background-color: lightgray;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover
+{
+	background-color: crimson;
+	color: white;
+}
+
+.collapsible:after
+{
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+
+.active:after
+{
+	content: "\2212";
+}
+
+.content
+{
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+}
+
+.para
+{
+	font-size: 30px;
+}			

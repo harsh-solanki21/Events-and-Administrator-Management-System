@@ -1,0 +1,44 @@
+input[type="text"],[type="number"],[type="date"],textarea
+{
+    width: 100%
+}
+.buttonHolder
+{
+    text-align: center;
+}
+table
+{
+    margin-left: 25%;
+    margin-top: 5%;
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+td,th
+{
+    border: 0px solid #ddd;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+tr:hover
+{
+    background-color: slategray;
+    color: white;
+}
+input[type="submit"],input[type="reset"],button
+{
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+input:hover[type="submit"],input:hover[type="reset"],button:hover
+{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
