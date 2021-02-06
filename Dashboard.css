@@ -1,0 +1,98 @@
+.backgrd
+{
+    /*background-color: gray;*/
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("church_pic3.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 1376px;
+    margin: -10px;
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw) );
+}
+
+.topnavbar
+{
+	width: 1200px;
+	height: 60px;
+	border-radius: 50px;
+	position: absolute;
+	margin: 50px 80px;
+	background-color: white;
+}
+
+.navbutton
+{
+	height: 60px;
+	width: 155px;
+	border-radius: 10px;
+	background-color: white;
+	color: red;
+	cursor: pointer;
+	margin-left:-5px;
+	position: relative;
+	border: none;
+}
+.navbutton:hover
+{
+	background-color: red;
+	color: white;
+}
+
+.time_cal
+{
+	height: 180px;
+	width: 1376px;
+	margin: -10px;
+        margin-top: 20px;
+	font-size: 30px;
+}
+
+.time
+{
+	background-color: rgb(128, 0, 0);
+	height: 150px;
+	width: 300px;
+	border-radius: 20px;
+	margin-left: 150px;
+        padding-top: 20px;
+        padding-right: 10px;
+	text-align: center;
+	color: white;
+}
+
+.user
+{
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	border-radius: 20px;
+	margin-left: 500px;
+        margin-top: -150px;
+	text-align: center;
+	color: rgb(128, 0, 0);
+}
+
+.cal
+{
+	background-color: rgb(128, 0, 0);
+	height: 150px;
+	width: 300px;
+        border-radius: 20px;
+	margin-top: -150px;
+	margin-left: 850px;
+        padding-top: 20px;
+        padding-right: 10px;        
+	text-align: center;
+	color: white	
+}
+
+.for_page
+{
+	background-color: pearl;
+	height: 1000px;
+	width: 1360px;
+}
+
+
+
+
