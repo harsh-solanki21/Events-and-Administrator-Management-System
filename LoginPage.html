@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="icon" type="image/png" href="cni_symbol.jpg">
+	<link rel="stylesheet" type="text/css" href="LoginPage.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body style="margin: 0px">
+    <div class="bgimg"></div>
+    <!--<div class="title">
+        <h2>CNI ST.JAMES CHURCH</h2>
+    </div>-->
+    
+    <div style="left: 60px; top: 130px;" class="text">
+	<p>
+            The Lord is my shepherd, I lack nothing.<br>
+            He makes me lie down in green pastures.<br>
+            He leads me beside still waters.He restores my soul.<br>
+            He leads me in paths of righteousness for his name’s sake.<br>
+            Even though I walk through the valley of the shadow of death,I will fear no evil, for you are with me; <br>
+            your rod and your staff, they comfort me.<br>
+        </p>
+    </div>
+    
+    <div style="right: 60px; top: 130px;" class="text">
+        <p>
+            I lift up my eyes to the hills.<br>
+            From where does my help come?<br>
+            My help comes from the Lord,<br>
+            who made heaven and earth.<br>
+            He will not let your foot be moved; <br>
+            he who keeps you will not slumber.<br>
+            Behold, he who keeps Israel will neither slumber nor sleep.<br>
+            The Lord is your keeper; <br>
+        </p>
+    </div>
+    
+    <div id="id01" class="modal">
+        <form class="modal-content animate" method="POST" action="Login.php" autocomplete="off">
+            <div class="imgcontainer">
+                <div class="symbol_img">
+                    <img style="height: 110px" src="cni_symbol.jpg" />
+                </div>
+            </div>
+            
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <br/>
+                <input id="usrnm" type="text" name="uname" required>
+                <br/>
+                <label for="psw"><b>Password</b></label>
+                <br/>
+                <input id="pswd" type="password" name="psw" required>
+                <br/>
+                <button type="submit" class="buttonlogin" name="Login">Login</button>
+                <br/>
+            </div>
+            <div class="container2">
+                <button type="Reset" class="cancelbtn">Reset</button>
+                <span class="psw"><a href="ForgotPassword.html">Forgot password?</a></span>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        var modal = document.getElementById('id01');
+        window.onload = function()
+        {
+            modal.style.display = "block";
+        }
+    </script>
+</body>
+</html>
