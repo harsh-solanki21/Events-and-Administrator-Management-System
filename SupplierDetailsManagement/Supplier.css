@@ -1,0 +1,90 @@
+html
+{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("church_pic3.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.title
+{
+	font-style: Times New Roman;
+	font-size: 20px;
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	background-color: rgba(128,128,128,0.5);
+	color: white;
+	padding-left: 460px;
+	padding-right: 470px;
+}
+table
+{
+	margin-left: 120px;
+	width: 80%;
+	margin-top: 20px;
+}
+
+td,th
+{
+	border: 0px solid #ddd;
+        margin: 100px;
+}
+
+tr:nth-child(even)
+{
+	background-color: lightgray;
+}
+tr:hover
+{
+	background-color: slategray;
+	color: white;
+}
+
+th
+{
+	text-align: left;
+	background-color: maroon;
+	color: white;
+}
+
+.editbutton
+{
+	color: white;
+	background-color: red;
+	border-radius: 50px;
+	border:none;
+	font-size: 15px;
+        width: 80%;
+}
+
+.delbutton
+{
+	color: white;
+	background-color: red;
+	border-radius: 50px;
+	border:none;
+	font-size: 15px;
+        width: 80%;
+}
+.editbutton:hover,.delbutton:hover
+{
+	background-color: white;
+	color: red;
+        width: 80%;
+}
+
+.addbutton
+{
+	color: red;
+	background-color: lightgray;
+	border-radius: 25px;
+	border: none;
+	font-size: 15px;
+	margin-left: 15px;
+        padding: 10px;
+}
+
+
+

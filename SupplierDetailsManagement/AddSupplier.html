@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ADD SUPPLIER </title>
+        <link rel="stylesheet" type="text/css" href="ShowSupplierDetails.css">
+    </head>
+    <body>
+        <div>
+            <form method="POST" action="AddSupplier.php" autocomplete="off">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Supplier Name : </td>
+                        <td> <input type="text" name="supplierName" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td>Supplier Phone No : </td>
+                        <td> 
+                            <input type="tel" name="supplierPhone" required="required" pattern="[0-9]{10}"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Supplier Address : </td>
+                        <td> <input type="text" name="supplierAddress" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td>Work Place Name : </td>
+                        <td> <input type="text" name="wpName" required="required"/> </td>
+                    </tr>
+                    <tr>
+                        <td>Work Place Address : </td>
+                        <td>
+                            <textarea cols="10" rows="10" name="wpAddress" required="required"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Work Place Phone No : </td>
+                        <td> <input type="tel" name="wpPhone" required="required" pattern="[0-9]{10}"/> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="buttonHolder">
+                            <input type="reset" value="Reset" />
+                            <input type="submit" value="Enter" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

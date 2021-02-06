@@ -1,0 +1,72 @@
+body
+{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("income_expense.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+input[type="text"],input[type="password"],input[type="number"]
+{
+    width: 85%;
+}
+.buttonHolder
+{
+    text-align: center;
+}
+table
+{
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+}
+td,th
+{
+    border: 0px solid #ddd;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+tr:hover
+{
+    background-color: slategray;
+    color: white;
+}
+input[type="submit"]
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+input:hover[type="submit"]
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+button
+{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: x-large;
+}
+button:hover
+{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.aParent div{
+    float: left;
+    clear: none;
+    margin-left: 9%;
+}

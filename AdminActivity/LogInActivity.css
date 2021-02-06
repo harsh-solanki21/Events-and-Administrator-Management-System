@@ -1,0 +1,62 @@
+html
+{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("church_pic1.jpg");;
+    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+body 
+{    
+    white-space:nowrap;
+    width:100%;
+}
+/*#nav-controls 
+{
+    position:fixed;
+    width:100%;
+    text-align:center;
+}
+#scroll-left, #scroll-right 
+{
+    display:inline-block;
+    font-size:1em;
+    background-color:#c0c0c0;
+    color:#585858;
+    padding:1em 1em;
+    width:0.25em;
+    border-radius:0.63em;
+}
+#scroll-left:hover, #scroll-right:hover 
+{
+    background-color: #585858;
+    color:#fff;
+    cursor:pointer;
+}
+#scroll-left 
+{
+    margin-right:5em;
+}
+#scroll-right 
+{
+    margin-left:5em;
+}*/
+table
+{
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+td,th
+{
+    border: 1px solid #ddd;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+tr:hover
+{
+    background-color: slategray;
+    color: white;
+}

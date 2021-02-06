@@ -1,0 +1,43 @@
+input[type="text"],input[type="password"],input[type="tel"],input[type="email"]
+{
+    width: 85%;
+}
+.buttonHolder
+{
+    text-align: center;
+}
+table
+{
+    margin-left: 35%;
+    margin-top: 5%;
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+td,th
+{
+    border: 0px solid #ddd;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+tr:hover
+{
+    background-color: slategray;
+    color: white;
+}
+input[type="submit"]
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+input:hover[type="submit"]
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}

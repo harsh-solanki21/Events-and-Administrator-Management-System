@@ -1,0 +1,45 @@
+html
+{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("church_pic4.jpg");;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}            
+a:link
+{
+    text-decoration: none;
+}
+table
+{
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+td,th
+{
+    border: 0px solid #ddd;
+}
+tr:nth-child(even)
+{
+    background-color: lightgray;
+}
+tr:hover
+{
+    background-color: slategray;
+    color: white;
+}
+button
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+button:hover
+{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}

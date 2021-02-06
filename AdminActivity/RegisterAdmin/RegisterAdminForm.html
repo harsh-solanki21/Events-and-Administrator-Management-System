@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="../Admin.css" />
+        <script type="text/javascript" src="RegisterAdmin.js"></script>
+    </head>
+    <body>
+        <div>
+            <form method="POST" autocomplete="off" action="AddAdmin.php" onkeydown="return event.key != 'Enter';">
+                <table border="1">
+                    <tbody>
+                        <tr>
+                            <td>New Admin Name : </td>
+                            <td> <input type="text" name="NAName" required="required"/> </td>
+                        </tr>
+                        <tr>
+                            <td>New Admin Username : </td>
+                            <td> <input type="text" name="NAUsername" required="required"/> </td>
+                        </tr>
+                        <tr>
+                            <td>New Admin Email : </td>
+                            <td> <input type="email" name="NAEmail" required="required"/> </td>
+                        </tr>                        
+                        <tr>
+                            <td>New Admin Password : </td>
+                            <td> 
+                                <input id="password-field1" type="password" name="NAPassword" required="required"/> 
+                                <i id="pass-status1" onClick="viewPassword1()" class="fa fa-eye"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Confirm Password : </td>
+                            <td> 
+                                <input id="password-field2" type="password" name="NAConfirmPassword" 
+                                       onblur="ConfirmPassword()" required="required"/> 
+                                <i id="pass-status2" onClick="viewPassword2()" class="fa fa-eye"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="buttonHolder"> 
+                                <input type="submit" name="submit_btn"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </form>
+        </div>
+    </body>
+</html>
